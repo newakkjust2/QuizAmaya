@@ -36,7 +36,7 @@ public class GridManager : MonoBehaviour
     void Start()
     {
         _minScreenSize = height > width ?  width : height;
-        _minScreenSize *= 0.5f;
+        _minScreenSize *= 0.85f;
         _spacing = _minScreenSize * 0.02f;
         _cellSize = (_minScreenSize - 5 * _spacing) / 3;
         _frame = GetComponent<RectTransform>();

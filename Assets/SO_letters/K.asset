@@ -17,3 +17,4 @@ MonoBehaviour:
   backColor:
     serializedVersion: 2
     rgba: 4292997119
+  xToYRatio: 0.742236
