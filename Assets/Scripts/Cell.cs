@@ -9,8 +9,8 @@ public class Cell : ScriptableObject
     public Sprite sprite;
     public Color32 backColor = Color.white;
     public float xToYRatio = 1;
-    private void OnValidate()
-    {
-        name = Path.GetFileNameWithoutExtension( AssetDatabase.GetAssetPath(this));
-    }
+    // private void OnValidate()
+    // {
+    //     name = Path.GetFileNameWithoutExtension( AssetDatabase.GetAssetPath(this));
+    // }
 }
